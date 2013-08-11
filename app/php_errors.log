@@ -1,0 +1,22 @@
+[11-Aug-2013 14:27:27] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/New_York' for 'EDT/-4.0/DST' instead in /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/CacheEngine.php on line 60
+[11-Aug-2013 14:27:27] PHP Stack trace:
+[11-Aug-2013 14:27:27] PHP   1. {main}() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/webroot/index.php:0
+[11-Aug-2013 14:27:27] PHP   2. include() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/webroot/index.php:92
+[11-Aug-2013 14:27:27] PHP   3. Configure::bootstrap() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/bootstrap.php:171
+[11-Aug-2013 14:27:27] PHP   4. include() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Core/Configure.php:78
+[11-Aug-2013 14:27:27] PHP   5. Cache::config() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/Config/core.php:336
+[11-Aug-2013 14:27:27] PHP   6. Cache::_buildEngine() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Cache.php:136
+[11-Aug-2013 14:27:27] PHP   7. FileEngine->init() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Cache.php:165
+[11-Aug-2013 14:27:27] PHP   8. CacheEngine->init() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Engine/FileEngine.php:81
+[11-Aug-2013 14:27:27] PHP   9. strtotime() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/CacheEngine.php:60
+[11-Aug-2013 14:27:27] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/New_York' for 'EDT/-4.0/DST' instead in /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/CacheEngine.php on line 60
+[11-Aug-2013 14:27:27] PHP Stack trace:
+[11-Aug-2013 14:27:27] PHP   1. {main}() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/webroot/index.php:0
+[11-Aug-2013 14:27:27] PHP   2. include() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/webroot/index.php:92
+[11-Aug-2013 14:27:27] PHP   3. Configure::bootstrap() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/bootstrap.php:171
+[11-Aug-2013 14:27:27] PHP   4. include() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Core/Configure.php:78
+[11-Aug-2013 14:27:27] PHP   5. Cache::config() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/Config/core.php:348
+[11-Aug-2013 14:27:27] PHP   6. Cache::_buildEngine() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Cache.php:136
+[11-Aug-2013 14:27:27] PHP   7. FileEngine->init() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Cache.php:165
+[11-Aug-2013 14:27:27] PHP   8. CacheEngine->init() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Engine/FileEngine.php:81
+[11-Aug-2013 14:27:27] PHP   9. strtotime() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/CacheEngine.php:60
