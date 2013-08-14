@@ -20,3 +20,12 @@
 [11-Aug-2013 14:27:27] PHP   7. FileEngine->init() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Cache.php:165
 [11-Aug-2013 14:27:27] PHP   8. CacheEngine->init() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/Engine/FileEngine.php:81
 [11-Aug-2013 14:27:27] PHP   9. strtotime() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Cache/CacheEngine.php:60
+[13-Aug-2013 16:36:43] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/View/Posts/index.ctp on line 18
+[13-Aug-2013 16:36:43] PHP Stack trace:
+[13-Aug-2013 16:36:43] PHP   1. {main}() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/webroot/index.php:0
+[13-Aug-2013 16:36:43] PHP   2. Dispatcher->dispatch() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/app/webroot/index.php:110
+[13-Aug-2013 16:36:43] PHP   3. Dispatcher->_invoke() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Routing/Dispatcher.php:162
+[13-Aug-2013 16:36:43] PHP   4. Controller->render() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Routing/Dispatcher.php:194
+[13-Aug-2013 16:36:43] PHP   5. View->render() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/Controller/Controller.php:952
+[13-Aug-2013 16:36:43] PHP   6. View->_render() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/View/View.php:471
+[13-Aug-2013 16:36:43] PHP   7. View->_evaluate() /var/lib/stickshift/5207d26750044699b200003e/app-root/data/581525/first_app/lib/Cake/View/View.php:907
